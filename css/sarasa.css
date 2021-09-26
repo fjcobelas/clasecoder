@@ -1,0 +1,21 @@
+section {
+  font-size: 1.5em; }
+
+div p {
+  font-size: 1.5em; }
+  div p a {
+    font-weight: 5; }
+
+.btn--twitter {
+  color: #55acee; }
+
+.btn--facebook {
+  color: #3a5795; }
+
+.btn--instagram {
+  color: #b8071e; }
+
+.tam {
+  height: 10px;
+  width: 10px;
+  padding: 5px; }

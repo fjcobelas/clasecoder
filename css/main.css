@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style:none;
+}
+
+body{
+   background-color:rgb(247, 247, 144) ; 
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    background-color:rgb(247, 247, 144) ; 
+  }
+
+div {
+    font-family: Roboto, sans-serif ;
+    font-size:1em;
+    font-weight: 100;
+    line-height: 1;
+    padding: 1em;
+    
+    }
+  div ul{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.sarasa {
+  font-family: Roboto, sans-serif ;
+  font-size:1em;
+  font-weight: 100;
+  line-height: 1;
+  padding: 1em;
+  
+  }
+
+.vAlign {
+  display: table-cell;
+  width: calc(100vw - 10px);
+  height: calc(10vh - 10px);
+  vertical-align: middle;
+}
+p {
+  max-width: 50%;
+  margin: 2px auto;
+  text-align: center;
+}
+/*boton menu */
+.boton_personalizado{
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  background-color: #ec6f08;
+  border-radius: 6px;
+  border: 2px solid #550202;
+}
+.boton_personalizado:hover{
+  color: #1883ba;
+  background-color: #ffffff;
+}
+/* footer */
+footer{
+    display: flex;
+    background-color: rgb(252, 179, 95);
+}
+
+footer div ul li{
+    display: flex; 
+    margin: 3px;
+    font-size: 18px;
+}
+h5 {
+  font-style: italic;
+  font-family: Roboto, sans-serif ;
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 1;
+   padding: 10px;
+}
+h6 {
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  font-family: Roboto, sans-serif ;
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 1;
+   padding: 5px;
+   background-color: yellowgreen;
+}
+h7 {
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  font-family: Roboto, sans-serif ;
+    font-size: 0.3em;
+    font-weight: 50;
+    line-height: 1;
+   padding: px;
+   background-color: yellowgreen;
+}
+
+
+/* Grid*/
+.grid-container {
+	display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-gap: 0px 0px 0px; 
+  grid-template-areas: 
+    'sorren' 
+    'las'
+    'can'
+    ; 
+}
+
+
+#sorren {
+	grid-area: sorren;
+}
+
+#las {
+	grid-area: las;
+}
+
+#can {
+	grid-area: can;
+}
+
+@media (min-width: 326px) {
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-gap: 0px;
+    grid-template-areas: 
+    'sorren las can';
+  }
+
+}
+
