@@ -57,33 +57,116 @@
            <div class="card-body">
              <h5 class="card-title">Sorrentinos</h5>
              <h7 class="sarasa">Precio: $ 250.00</h7>
-             <a href="#" class="btn btn-primary">Hacer Pedido</a>
-           </div>
+             <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Ingresar Email">Hacer Pedido</a>
+           <!--Modal-->
+             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Pedido</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <label for="recipient-name" class="col-form-label">E-Mail:</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                      </div>
+                      <div class="mb-3">
+                        <label for="message-text" class="col-form-label">Mensaje:</label>
+                        <textarea class="form-control" id="message-text"></textarea>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Enviar Mensaje</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+            </div>
       </div>
   </div>
     
    <div id="las"> 
       <div class="card" >
-         <img src="../img/lasagna.png" class="card-img-top" alt="lasagna">
-           <div class="card-body">
-             <h5 class="card-title">Lasagna</h5>
-             <h7 class="sarasa">Precio: $ 350.00</h7>
-             <a href="#" class="btn btn-primary">Hacer Pedido</a>
+        <img src="../img/lasagna.png" class="card-img-top" alt="sorrentinos">
+        <div class="card-body">
+          <h5 class="card-title">Lasagnas</h5>
+          <h7 class="sarasa">Precio: $ 450.00</h7>
+          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Ingresar Email">Hacer Pedido</a>
+        <!--Modal-->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+           <div class="modal-dialog">
+             <div class="modal-content">
+               <div class="modal-header">
+                 <h5 class="modal-title" id="exampleModalLabel">Pedido</h5>
+                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+               <div class="modal-body">
+                 <form>
+                   <div class="mb-3">
+                     <label for="recipient-name" class="col-form-label">E-Mail:</label>
+                     <input type="text" class="form-control" id="recipient-name">
+                   </div>
+                   <div class="mb-3">
+                     <label for="message-text" class="col-form-label">Mensaje:</label>
+                     <textarea class="form-control" id="message-text"></textarea>
+                   </div>
+                 </form>
+               </div>
+               <div class="modal-footer">
+                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                 <button type="button" class="btn btn-primary">Enviar Mensaje</button>
+               </div>
+             </div>
            </div>
-      </div>
-    </div>
+         </div>
+        
+         </div>
+   </div>
+</div>
   
     <div id="can"> 
       <div class="card" >
-         <img src="../img/canelon.png" class="card-img-top" alt="Canelones">
-           <div class="card-body">
-             <h5 class="card-title">Canelones</h5>
-             <h7 class="sarasa">Precio: $ 350.00</h7>
-             <a href="#" class="btn btn-primary">Hacer Pedido</a>
+        <img src="../img/canelon.png" class="card-img-top" alt="sorrentinos">
+        <div class="card-body">
+          <h5 class="card-title">Canelones</h5>
+          <h7 class="sarasa">Precio: $ 350.00</h7>
+          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Ingresar Email">Hacer Pedido</a>
+        <!--Modal-->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+           <div class="modal-dialog">
+             <div class="modal-content">
+               <div class="modal-header">
+                 <h5 class="modal-title" id="exampleModalLabel">Pedido</h5>
+                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+               <div class="modal-body">
+                 <form>
+                   <div class="mb-3">
+                     <label for="recipient-name" class="col-form-label">E-Mail:</label>
+                     <input type="text" class="form-control" id="recipient-name">
+                   </div>
+                   <div class="mb-3">
+                     <label for="message-text" class="col-form-label">Mensaje:</label>
+                     <textarea class="form-control" id="message-text"></textarea>
+                   </div>
+                 </form>
+               </div>
+               <div class="modal-footer">
+                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                 <button type="button" class="btn btn-primary">Enviar Mensaje</button>
+               </div>
+             </div>
            </div>
-      </div>
-    </div>
+         </div>
+        
+         </div>
    </div>
+</div>
 
    
 
@@ -96,16 +179,16 @@
  <h5 >Redes Sociales </h5>
  
  <ul > 
-     <li >
-        <a class="btn--facebook" target="_blank"  href="https://www.facebook.com/"  > <img src="../img/facebook.png">facebook</a>
-     </li>
-     <li > 
-       <a class="btn--twitter " target="_blank" href="https://twitter.com/"><img src="../img/twitter.png"> Twitter</a>
-     </li>  
-     <li >
-      <a class="btn--instagram" target="_blank"   href="https://www.instagram.com/"><img src="../img/instagram.png">Instagram</a>
-     </li>
- </ul>
+  <li >
+     <a class="btn--facebook" target="_blank"  href="https://www.facebook.com/"  > <img src="../img/facebook.png"></a>
+  </li>
+  <li > 
+    <a class="btn--twitter " target="_blank" href="https://twitter.com/"><img src="../img/twitter.png"></a>
+  </li>  
+  <li >
+   <a class="btn--instagram" target="_blank"   href="https://www.instagram.com/"><img src="../img/instagram.png"></a>
+  </li>
+</ul>
  </div> 
  </footer>
 
